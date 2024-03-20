@@ -1,0 +1,79 @@
+.header-component {
+    background-color: #ddc3d0;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+
+    .header-left {
+        .buttons-header-left {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            padding-left: 2rem;
+            gap: 2rem;
+
+            .btn-header-left {
+                background-color: #857e61;
+                cursor: pointer;
+                color: white;
+                border: none;
+                padding: 0.5rem 1rem 0.5rem 1rem;
+                border-radius: 10px;
+                letter-spacing: 2px;
+                font-weight: bold;
+                font-family: 'Courier New', Courier, monospace;
+                gap: 10%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .header-mid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 3rem;
+        color: #857e61;
+    }
+
+    .header-right {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 3%;
+
+        .logRegBtn {
+            background-color: #857e61;
+            cursor: pointer;
+            color: white;
+            border: none;
+            letter-spacing: 2px;
+            padding: 1rem;
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+
+            &:active {
+                background-color: #b7a196;
+            }
+        }
+
+        .logged-right {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logged-fname-lname {
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+    }
+}

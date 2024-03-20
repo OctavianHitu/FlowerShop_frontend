@@ -1,0 +1,49 @@
+.login-register-page {
+    background-image: url("../../assets/images/logregfl.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .form-container-login {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 15% 85%;
+        align-items: center;
+
+        .logreg-choose {
+            height: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            .logOrRegBtn {
+                // background-color: #857e61;
+                cursor: pointer;
+                color: white;
+                border: none;
+                letter-spacing: 4px;
+                padding: 1rem 2rem 1rem 2rem;
+                border-radius: 10px;
+                font-weight: bold;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+        }
+
+        .forms-zone {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+
+    }
+}

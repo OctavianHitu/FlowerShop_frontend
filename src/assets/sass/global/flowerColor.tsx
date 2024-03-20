@@ -1,0 +1,26 @@
+export enum ColorEnum {
+    ROȘU = "Roșu",
+    ALBASTRU = "Albastru",
+    VERDE = "Verde",
+    GALBEN = "Galben",
+    PORTOCALIU = "Portocaliu",
+    MOV = "Mov",
+    ROZ = "Roz",
+    MARO = "Maro",
+    GRI = "Gri",
+    NEGRU = "Negru",
+    ALB = "Alb",
+    CYAN = "Cyan",
+    MAGENTA = "Magenta",
+    LIME = "Lime",
+    INDIGO = "Indigo",
+    TEAL = "Teal",
+    AMBER = "Amber",
+    VIOLET = "Violet",
+    TURCOAZ = "Turcoaz",
+    ARGINTIU = "Argintiu",
+    NAVY = "Navy",
+    OLIVA = "Oliv",
+    MULTICOLOR = "Multicolor"
+}
+

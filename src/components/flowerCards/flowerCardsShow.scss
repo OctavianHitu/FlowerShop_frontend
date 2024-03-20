@@ -1,0 +1,19 @@
+.flower-cards-show {
+
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 3rem;
+    min-height: 800px;
+
+    .first-row-flowers {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-row-flowers {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

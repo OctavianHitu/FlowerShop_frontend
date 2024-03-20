@@ -1,0 +1,11 @@
+.main {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 7% 1fr;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("../assets/images/logregfl.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

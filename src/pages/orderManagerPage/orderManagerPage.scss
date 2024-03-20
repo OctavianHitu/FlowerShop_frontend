@@ -1,0 +1,73 @@
+.orderManagerPage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .orderManagerPage-container {
+        height: 100%;
+        width: 70%;
+        display: grid;
+        grid-template-rows: 10% 90%;
+
+        .orders-manager-wwr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .order-manager-rows-for-client {
+
+            height: 100%;
+            width: 100%;
+
+
+
+            .order-manager-row-item {
+                height: 80px;
+                width: 100%;
+                margin-bottom: 20px;
+                background-color: white;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border-radius: 10px;
+                gap: 2rem;
+                font-size: large;
+                font-weight: bold;
+
+                .flowers-order-view {
+                    .btn-view-fl-order {
+                        border-radius: 10px;
+                        height: 35px;
+                        width: 60px;
+                        border: none;
+                        cursor: pointer;
+                        color: white;
+                    }
+                }
+
+                :nth-child(1) {
+                    background-color: #857e61;
+                    width: 3rem;
+                    height: 100%;
+                    border-radius: 10px 0px 0px 10px;
+                }
+
+            }
+        }
+
+
+
+
+
+    }
+}

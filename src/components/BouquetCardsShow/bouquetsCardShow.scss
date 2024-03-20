@@ -1,0 +1,18 @@
+.bqs-cards-show {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 3rem;
+    min-height: 700px;
+
+    .first-row-bqs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-row-bqs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

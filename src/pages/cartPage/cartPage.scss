@@ -1,0 +1,213 @@
+.cartPage {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 70% 30%;
+
+    .cartPage-left {
+        display: grid;
+        grid-template-rows: 50% 50%;
+
+        .flowers-list-cart {
+            display: grid;
+            grid-template-rows: 15% 85%;
+
+            .flower-wr-div {
+                display: flex;
+                justify-content: flex-start;
+                padding-left: 10%;
+                font-size: larger;
+                font-weight: bolder;
+                align-items: center;
+            }
+
+            .flower-list-cart-container {
+                height: 350px;
+                width: 80%;
+                padding-left: 3%;
+                background-color: none;
+                overflow-y: scroll;
+
+                &::-webkit-scrollbar {
+                    background-color: #b7a196;
+                    border-radius: 10px;
+
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background-color: #ddc3d0;
+                    border-radius: 10px;
+
+                }
+
+                .flower-amount-cart-row {
+                    border-radius: 10px;
+                    height: 80px;
+                    width: 95%;
+                    background-color: white;
+                    gap: 1rem;
+                    margin-bottom: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .fl-row-item-1 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1rem;
+                        font-weight: bolder;
+                        height: 80px;
+
+
+                        .flower-image-cart {
+                            padding-left: 2rem;
+                            max-width: 80px;
+                            max-height: 80px;
+                        }
+
+                        :nth-child(n+1) {
+                            display: flex;
+                            gap: 1rem;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+
+                    .btn-for-remove-fl-cart {
+                        padding-right: 5%;
+
+                        .btn-for-handler {
+                            background-color: #857e61;
+                            cursor: pointer;
+                            color: white;
+                            border: none;
+                            padding: 0.7rem 1rem 0.7rem 1rem;
+                            border-radius: 10px;
+                            font-weight: bolder;
+                            font-family: 'Courier New', Courier, monospace;
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        .bouquets-list-cart {
+            display: grid;
+            grid-template-rows: 10% 90%;
+
+            .bq-wr-div {
+                display: flex;
+                justify-content: flex-start;
+                padding-left: 10%;
+                font-size: larger;
+                font-weight: bolder;
+                align-items: center;
+            }
+
+            .bouquets-list-cart-container {
+                height: 90%;
+                width: 80%;
+                padding-left: 3%;
+                background-color: none;
+                overflow-y: scroll;
+
+
+                &::-webkit-scrollbar {
+                    background-color: #b7a196;
+                    border-radius: 10px;
+
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background-color: #ddc3d0;
+                    border-radius: 10px;
+
+                }
+
+                .bq-item-cart-row {
+                    border-radius: 10px;
+                    height: 80px;
+                    width: 95%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: white;
+                    gap: 1rem;
+                    margin-bottom: 10px;
+
+                    .bq-item-row-name-price {
+                        padding-left: 5%;
+                        font-size: larger;
+                        font-weight: bold;
+                        display: flex;
+                        gap: 2rem;
+
+
+                    }
+
+                    .btns-bq-item-row {
+                        padding-right: 5%;
+                        display: flex;
+                        gap: 2rem;
+
+                        .btn-for-handler {
+                            background-color: #857e61;
+                            cursor: pointer;
+                            color: white;
+                            border: none;
+                            padding: 0.7rem 1rem 0.7rem 1rem;
+                            border-radius: 10px;
+                            font-weight: bolder;
+                            font-family: 'Courier New', Courier, monospace;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .cartPage-right {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+
+        .cart-page-right-container {
+            border-radius: 10px;
+            height: 20%;
+            width: 70%;
+            background-color: white;
+            display: grid;
+            grid-template-rows: 50% 50%;
+
+            .total-is {
+                font-weight: bolder;
+                font-size: larger;
+                padding: 5% 0% 0% 3%;
+            }
+
+            .btn-place-order {
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                padding-right: 5%;
+
+                .btn-for-handler {
+                    background-color: #857e61;
+                    cursor: pointer;
+                    color: white;
+                    border: none;
+                    padding: 0.7rem 1rem 0.7rem 1rem;
+                    border-radius: 10px;
+                    font-weight: bolder;
+                    font-family: 'Courier New', Courier, monospace;
+                }
+            }
+        }
+    }
+}

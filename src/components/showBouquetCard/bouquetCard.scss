@@ -1,0 +1,96 @@
+.bouquet-card {
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 10% 60% 10% 20%;
+    padding: 1%;
+    align-items: center;
+    border-radius: 10px;
+
+    background-color: #dbfcff;
+
+    .bq-card-fl-icon {
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 5% 2% 5%;
+        align-items: center;
+        height: 90%;
+    }
+
+    .bq-flowers-list {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        overflow-y: scroll;
+        background-color: white;
+        border-radius: 10px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+
+        .bq-flower-item {
+            padding: 2%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+
+    }
+
+    .total-bq-card {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 5%;
+    }
+
+    .bq-buttons-item {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 100%;
+        width: 100%;
+
+        .bq-item-btn-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .btn-for-handler {
+                background-color: #857e61;
+                cursor: pointer;
+                color: white;
+                border: none;
+                padding: 0.7rem 1rem 0.7rem 1rem;
+                border-radius: 10px;
+                font-weight: bolder;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        }
+    }
+
+    .bq-cart-rmove {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .btn-for-handler {
+            background-color: #857e61;
+            cursor: pointer;
+            color: white;
+            border: none;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            border-radius: 10px;
+            font-weight: bolder;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+
+
+
+
+}
